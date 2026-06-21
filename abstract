@@ -1,0 +1,12 @@
+Title: Smart Loan Advisor – Loan Approval Prediction System using ML
+Domain: Finance
+
+Abstract:
+Smart Loan Advisor is a machine learning-based web application developed to predict loan approval status based on an applicant's financial and personal information. The project belongs to the domain of Finance and aims to assist in the preliminary assessment of loan applications through predictive analytics using machine learning.
+
+The system utilizes a credit risk dataset containing attributes such as applicant age, annual income, employment length, loan amount, loan grade, interest rate, credit history length, home ownership status, loan purpose, and previous default records. The dataset was obtained from Kaggle and was used for data preprocessing, feature engineering, model training, and evaluation.
+
+A Random Forest Classifier was trained on the processed dataset to classify loan applications as approved or rejected. Feature engineering technique such as calculating income-to-loan ratio were incorporated to improve predictive performance. Data preprocessing included handling categorical variables, feature scaling, and train-test splitting.
+
+The trained model was integrated into a user-friendly Streamlit web application named Smart Loan Advisor. The application allows users to enter their details through an interactive interface and instantly receive a loan approval prediction along with a risk assessment score. The system demonstrates the practical application of machine learning in the banking and financial sector by enabling faster, data-driven loan evaluation.
+
